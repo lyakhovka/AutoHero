@@ -1,0 +1,16 @@
+package com.AutoHero;
+
+/**
+ * Created by olena on 2/13/19.
+ */
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+import org.junit.runner.RunWith;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+        features = {"src/test/resources/"}
+)
+public class RunnerTest {
+
+}
